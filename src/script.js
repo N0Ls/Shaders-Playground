@@ -26,10 +26,10 @@ const canvas = document.querySelector("canvas.webgl");
 
 // Scene
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x468246);
+scene.background = new THREE.Color(0xa3ffcb);
 
 const backgroundParams = {
-	color: 0x468246,
+	color: 0xa3ffcb,
 };
 gui.addColor(backgroundParams, "color").onChange(() => {
 	scene.background.set(backgroundParams.color);
